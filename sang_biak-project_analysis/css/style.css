@@ -1,0 +1,67 @@
+body, h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .9em;
+	background: #0d284c;
+}
+
+header {
+	background-color: #fff;
+	width: 780px;
+	height: 55px;
+	margin: 0 auto;
+	padding: 20px 0 0 20px;;
+	color: #866821;
+	font-variant: small-caps;
+	border-radius: 0 0 10px 10px;
+}
+
+
+#wrapper {
+	width: 800px;
+	background-color: #fff;
+	border-radius: 10px;
+	margin: 20px auto 0;
+	padding-top: 20px;
+}
+
+#wrapper h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	font-size: 1.7em;
+	color: #542;
+	width: 50%;
+	background-color: #a49d8b;
+	border-radius: 0 5px 5px 0;
+	color: #fff;
+	padding: 5px 0 5px 20px;
+	position: relative;
+	box-shadow: 3px 3px 2px #ccc;
+}
+
+#wrapper h1:before {
+	left: -10px;;
+ 	border-right-width: 1.5em;
+ 	border-left-color: transparent;
+ 	content: "";
+ 	position: absolute;
+ 	display: block;
+ 	bottom: -8px;;
+ 	border: 20px solid #94845d;
+ 	z-index: -1;
+}
+
+h3 {
+	margin-left: 20px;
+}
+
+p {
+	padding-bottom: 15px;
+	border-bottom: 1px dotted #ccc;
+	margin: 15px auto;
+	width: 95%;
+}
