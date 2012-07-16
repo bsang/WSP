@@ -1,0 +1,397 @@
+body, h1, h2, h3, h4, h5, h6, p, header, nav, aside, footer {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(../img/page-bg.jpg) repeat-x;
+	width: 960px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: .8em;
+}
+
+header {
+	width: 100%;
+	height: 125px;
+	margin: 0 auto;
+}
+
+header h1 {
+	color: #fff;
+	font-size: 36px;
+	padding-top: 20px;
+}
+
+/*====== Logo ============*/
+
+#logo {
+	width: 90px;
+	height: 91px;
+	float: left;
+	margin-right: 20px;
+	background: url(../img/logo.png) no-repeat;
+}
+
+/*==================== Global Navigation Bar ===================*/
+nav {
+	width: 960px;
+	height: 33px;
+	clear: both;
+}
+
+nav ul {
+	padding: 0;
+	list-style: none;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a {
+	font-size: 1.3em;
+	color: #333;
+	text-decoration: none;
+	height: 33px;
+	display: block;
+	line-height: 33px;
+	padding: 0 15px;
+	border-left: 1px solid #ccc;
+}
+
+nav ul li a:hover {
+	font-size: 1.3em;
+	color: #333;
+	text-decoration: none;
+	height: 33px;
+	display: block;
+	line-height: 33px;
+	padding: 0 15px;
+	border-left: 1px solid #ccc;
+	background: #699000;
+	color: #fff;
+}
+
+/*==== Current Page =======*/
+
+.current {
+	background: #699000;
+	color: #fff;
+}
+
+/*============ Web Search ============*/
+
+#search-engine form input[type="search"] {
+	width: 170px;
+	margin-top: 5px;
+	text-align: left;
+	border: 1px solid #ccc;
+	padding: 4px 3px 4px 10px;
+}
+
+#search-engine form input[type="submit"] {
+	width: 50px;
+	margin-top: 5px;
+	text-align: center;
+	border: 1px solid #ccc;
+	padding: 3px;
+	background: #699000;
+	color: #fff;
+	border: none;
+}
+
+#search-engine form {
+	text-align: right;
+}
+
+/*==================== Page Wrapper ===================*/
+#page-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*==================== Main Content ===================*/
+#main-content {
+	width: 640px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#main-page-content {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	width: 600px;
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	padding: 15px 20px;
+	line-height: 20px;
+}
+
+/*============ Main Content h2 ==============*/
+
+#main-page-content h2 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	color: #6a3409;
+}
+
+#main-page-content p {
+	margin-bottom: 15px;
+}
+
+i {
+	color: #6a3409;
+}
+
+/*=============== Slideshow ============*/
+
+#slideshow {
+	width: 640px;
+	height: 325px;
+	background: #000;
+
+}
+
+/*=============== Main left Content (Box 1)===========*/
+
+#main-left-content {
+	font-size: 14px;
+	width: 278px;
+	padding: 15px;
+	margin-top: 10px;
+	float: left;
+	border: 1px solid #ccc;
+}
+
+/*============ Main right Content (Box 2) ===========*/
+
+#main-right-content {
+	font-size: 14px;
+	width: 278px;
+	padding: 15px;
+	float: right;
+	margin-top: 10px;
+	border: 1px solid #ccc;
+}
+
+#main-page-content img {
+	float: left;
+	margin: 0 15px 10px 0;
+}
+
+#main-left-content img {
+	margin-bottom: 10px;
+}
+
+#main-right-content img {
+	margin-bottom: 10px;
+}
+
+/*========= Contact Form ========*/
+
+#contact-form fieldset {
+	border: none;
+}
+
+#contact-form form label {
+	width: 100px;
+	height: 25px;
+	line-height: 25px;
+	float: left;
+	text-align: right;
+	padding-right: 10px;
+}
+
+#contact-form form input {
+	width: 200px;
+	height: 25px;
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+
+#contact-form form #male {
+	width: 15px;
+	height: 15px;
+}
+
+#contact-form form #female {
+	width: 15px;
+	height: 15px;
+}
+
+#contact-form #male {
+	float: left;
+}
+
+#zipcode {
+	clear: left;
+}
+
+label[for="subject"] {
+	clear: left;
+	display: block;
+}
+select[name="subject"] {
+	float:left;
+	margin-left: 10px;
+}
+
+#other_subject {
+	clear: left;
+}
+
+#contact-form #submit {
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 5px 0 0 110px;
+
+}
+
+
+/*==================== Aside===================*/
+aside {
+	width: 300px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 1px;
+}
+
+/*================== Update ============*/
+
+#news-update {
+	width: 100%;
+	background: #fafafa;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+#news-update h2 {
+	font-size: 1.6em;
+	float: left;
+	padding: 5px 0 5px 15px;
+	color: #6a3409;
+}
+
+#news-update a {
+	color: #0c3760;
+	text-decoration: none;
+}
+
+#news-update a:active {
+	color: #1e72c3;
+	text-decoration: none;
+}
+
+#news-update a:hover {
+	color: #415902;
+	text-decoration: underline;
+}
+
+#more {
+	float: right;
+	padding: 10px;
+}
+
+.update {
+	width: 90%;
+	margin: 0 auto 10px;
+	padding: 10px 0 5px 0;
+	border-top: solid 1px #ccc;
+	clear: both;
+
+}
+
+.update p {
+	font-size: 1.1em;
+}
+
+.update h3 {
+	font-size: 1.1em;
+}
+
+/* Link */
+.link {
+	border-bottom: 1px dotted #ccc;
+	padding: 7px 0;
+}
+
+/*.link:hover {
+	border-bottom: 1px dotted #ccc;
+	padding: 10px 0;
+	background: #f0f0f0;
+}
+*/
+.link a{
+	font-size: 1.1em;
+	text-decoration: none;
+	color: #083259;
+}
+
+.link a:hover {
+	text-decoration: underline;
+	color: #486300;
+}
+
+/*===================== Right Content ======================*/
+.right-content {
+	width: 270px;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 15px;
+	background: #fafafa;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+}
+
+.right-content h2 {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+}
+
+#register-button {
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	background: #699000;
+	margin-top: 10px;
+	text-align: center;
+}
+
+#register-button a{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	display: block;
+	font-size: 14px;
+	color: #fff;
+	text-decoration: none;
+}
+
+#register-button a:hover{
+	width: 100%;
+	height: 35px;
+	line-height: 35px;
+	display: block;
+	font-size: 14px;
+	background: #6a3409;
+	color: #fff;
+	text-decoration: none;
+}
+
+/*================= Footer ===============*/
+
+footer {
+	width: 100%;
+	background: #083259;
+	padding: 20px 0;
+	clear: both;
+	text-align: center;
+	color: #ccc;
+}
